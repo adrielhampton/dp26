@@ -9,6 +9,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Public+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/main.css">
+<style>
+  .goog-te-banner-frame { display: none !important; }
+  body { top: 0 !important; }
+  .goog-te-gadget-simple { background: transparent !important; border: none !important; padding: 0 !important; }
+  .goog-te-gadget-simple span, .goog-te-gadget-simple a { color: rgba(255,255,255,0.8) !important; font-family: 'Public Sans', sans-serif !important; font-size: 13px !important; font-weight: 700 !important; letter-spacing: 0.05em !important; text-transform: uppercase !important; text-decoration: none !important; }
+  .goog-te-gadget-icon { display: none !important; }
+</style>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'es',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+    autoDisplay: false
+  }, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 <body>
 
@@ -29,13 +47,14 @@
     <span></span><span></span><span></span>
   </button>
   <ul class="nav-links">
-    <li><a href="warehouses.html">Warehouses</a></li>
     <li><a href="movement.html">Movement</a></li>
-    <li><a href="congress.html">Elect Congress</a></li>
-    <li><a href="act.html">Take Action</a></li>
+    <li><a href="warehouses.html">Warehouses</a></li>
+    <li><a href="congress.html">Congress</a></li>
     <li><a href="about.html">About</a></li>
     <li><a href="act.html" class="nav-cta">Join Us</a></li>
     <li><a href="https://secure.actblue.com/donate/stop-ice-1" class="nav-cta nav-support" target="_blank" rel="noopener">Fund the Fight</a></li>
+  
+    <li id="google_translate_element" style="display:flex;align-items:center;"></li>
   </ul>
 </nav>
 
@@ -48,10 +67,10 @@
     <h1>Murder. Torture. Child Abuse.<br>We Must Stop ICE.</h1>
     <p class="hero-body">We will mobilize 100 million voters to defeat pro-ICE politicians.</p>
     <div class="btn-row">
-      <a href="act.html" class="btn btn-red">Add My Name</a>
+      <a href="act.html" class="btn btn-red">Join Us</a>
       <a href="warehouses.html" class="btn btn-ghost">See the Map</a>
     </div>
-    <p class="hero-counter">Tens of thousands of Americans have taken action — join them</p>
+    <p class="hero-counter">Millions of Americans are taking action – join us</p>
   </div>
 </section>
 
@@ -63,23 +82,23 @@
   </div>
   <div class="story-grid">
     <article class="story-card">
+      <div class="card-img" style="background-image: url('https://lh3.googleusercontent.com/d/1qK_GyM6Mmw5LPdCmrYOVQKHYV-zKU7l_')">
+        <span class="card-tag">Movement</span>
+      </div>
+      <div class="card-body">
+        <h3>Millions of Americans Are Already Fighting Back</h3>
+        <p>From courtrooms to street corners, millions of Americans are organizing to stop ICE — and winning. Find your people.</p>
+        <a href="movement.html" class="card-link">Find Your People &rarr;</a>
+      </div>
+    </article>
+    <article class="story-card">
       <div class="card-img" style="background-image: url('https://lh3.googleusercontent.com/d/1zYHyesK507bfD_jFuhlLWIaWep0hBYki')">
-        <span class="card-tag">Communities</span>
+        <span class="card-tag">Warehouses</span>
       </div>
       <div class="card-body">
         <h3>Your Neighbors Are Already Fighting Back</h3>
         <p>From Minnesota to Missouri to Virginia, communities have stopped ICE from turning their warehouses into concentration camps. Five stopped. Eighteen more to go.</p>
-        <a href="warehouses.html" class="card-link">See the Map</a>
-      </div>
-    </article>
-    <article class="story-card">
-      <div class="card-img" style="background-image: url('https://lh3.googleusercontent.com/d/1qK_GyM6Mmw5LPdCmrYOVQKHYV-zKU7l_')">
-        <span class="card-tag red">Corruption</span>
-      </div>
-      <div class="card-body">
-        <h3>Corrupt Real Estate Deals With Your Tax Dollars</h3>
-        <p>ICE is secretly leasing warehouses across America — billions in no-bid contracts to politically connected contractors. Warehouses meant for jobs, not human cages.</p>
-        <a href="warehouses.html" class="card-link">Follow the Money</a>
+        <a href="warehouses.html" class="card-link">See the Map &rarr;</a>
       </div>
     </article>
     <article class="story-card">
@@ -89,7 +108,7 @@
       <div class="card-body">
         <h3>Repeal and Replace ICE — As Many Times as It Takes</h3>
         <p>Republicans tried to kill the ACA 70 times. We can be just as relentless. Demand that Congress vote to repeal and replace Trump's Gestapo.</p>
-        <a href="congress.html" class="card-link">Find Candidates</a>
+        <a href="congress.html" class="card-link">Find Candidates &rarr;</a>
       </div>
     </article>
   </div>
@@ -109,7 +128,7 @@
 <section class="petition-section">
   <div class="petition-inner">
     <h2>Stop the Concentration Camps.<br>Repeal and Replace ICE.</h2>
-    <p class="sub">Tell Congress: no more concentration camps in American communities. Add your name.</p>
+    <p class="sub">No more murder, torture, and child abuse. Add your name.</p>
     <div id='can-form-area-pledge-to-vote-for-stop-ice-candidates' style='width: 100%'>
     </div>
   </div>
@@ -130,22 +149,23 @@
       </div>
     </a>
     <ul class="footer-nav">
-      <li><a href="warehouses.html">Warehouses</a></li>
       <li><a href="movement.html">Movement</a></li>
-      <li><a href="congress.html">Elect Congress</a></li>
-      <li><a href="act.html">Take Action</a></li>
+      <li><a href="warehouses.html">Warehouses</a></li>
+      <li><a href="congress.html">Congress</a></li>
       <li><a href="about.html">About</a></li>
+      <li><a href="act.html">Join Us</a></li>
       <li><a href="https://secure.actblue.com/donate/stop-ice-1" target="_blank" rel="noopener">Support</a></li>
       <li><a href="privacy.html">Privacy Policy</a></li>
     </ul>
   </div>
   <div class="footer-bottom">
-    <p class="footer-photo-credit">Photo credit: Austin Kocher, <em>A Closer Look at ICE's Enormous People Warehouse</em></p>
     <p class="footer-legal">The Stop ICE campaign is a project of Democrats.com LLC. Not authorized by any candidate or candidate's committee.</p>
     <div class="footer-social">
-      <a href="#">Twitter/X</a>
-      <a href="#">Facebook</a>
-      <a href="#">Instagram</a>
+      <a href="https://democrats.com/" target="_blank" rel="noopener">Democrats.com</a>
+      <a href="https://bsky.app/profile/democratsdotcom.bsky.social" target="_blank" rel="noopener">BlueSky</a>
+      <a href="https://x.com/democratsdotcom" target="_blank" rel="noopener">Twitter/X</a>
+      <a href="https://www.facebook.com/democratscom" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.instagram.com/democratscom/" target="_blank" rel="noopener">Instagram</a>
     </div>
   </div>
 </footer>
